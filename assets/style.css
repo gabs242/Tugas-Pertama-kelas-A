@@ -1,0 +1,411 @@
+* {
+    font-family: 'Poppins';
+}
+
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #152C5B;
+}
+
+li {
+    margin-right: 15px;
+}
+
+.header {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #E5E5E5;
+}
+
+.header h1 {
+    color: #152C5B;
+}
+
+.stay {
+    color: #3252DF;
+}
+
+.firstlist {
+    color: #3252DF;
+}
+
+main .show__me {
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.forget__your {
+    position: relative;
+    margin-right: 300px;
+}
+
+.forget__your h2 {
+    font-size: 42px;
+    color: #152C5B;
+}
+
+.forget__your p {
+    color: #B0B0B0;
+}
+
+.forget__your button {
+    background-color: #3252DF;
+    color: white;
+    border: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+
+.travel {
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    left: 0;
+}
+
+.travel div {
+    margin-right: 30px;
+}
+
+.travel span {
+    color: #152C5B;
+    font-weight: bold;
+}
+
+.most_picked{
+    position:absolute;
+    width: 144px;
+    height: 36px;
+    left: 60px;
+    top: 640px;
+
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #152C5B;
+}
+
+.kotak-gambar{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 30px;
+    padding-left: 120px;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.kotak_gambar2-3{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;  
+}
+
+.kotak_gambar4-5{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.gambar1{
+    position: relative;
+}
+
+.gambar2{
+    position: relative;
+}
+
+.gambar3{
+    position: relative;
+}
+
+.gambar4{
+    position: relative;
+}
+
+.gambar5{
+    position: relative;
+}
+
+.pinky{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 180px;
+    height: 40px;
+    border-radius: 0px 15px;
+    text-align: center;
+    padding-bottom: 15PX;
+    background-color: #FF498B;
+}
+
+.pinky{
+    color: white;
+}
+
+.pantai{
+    position:absolute;
+    width: 180.5px;
+    height: 22px;
+    margin-left: 15px;
+    bottom: 30px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #152C5B;
+}
+
+.denpasar{
+    position:absolute;
+    width: 200px;
+    height: 15px;
+    margin-left: 15px;
+    bottom: 10px;
+    color: #152C5B;
+}
+
+.Halaman{
+    position:absolute;
+    margin-top: 50px;
+    margin-bottom: auto;
+    left: 60px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #152C5B;
+}
+
+.kotakHalaman{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 30px;
+    padding-left: 50px;
+    margin-top: 100px;
+    align-items: center;
+
+}
+.GH1{
+    position: relative;
+    margin-left: 20px;
+}
+
+.GH2{
+    position: relative;
+    margin-left: 25px;
+}
+
+.GH3{
+    position: relative;
+    margin-left: 25px;
+}
+
+.GH4{
+    position: relative;
+    margin-left: 25px;
+}
+
+.Hotel{
+    position:absolute;
+    margin-top: 80px;
+    margin-bottom: auto;
+    left: 60px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #152C5B;
+}
+
+.RTunggu{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 30px;
+    padding-left: 50px;
+    margin-top: 130px;
+    align-items: center;
+}
+
+.RT1{
+    position: relative;
+    margin-left: 20px;
+}
+
+.RT2{
+    position: relative;
+    margin-left: 25px;
+}
+
+.RT3{
+    position: relative;
+    margin-left: 25px;
+}
+
+.RT4{
+    position: relative;
+    margin-left: 25px;
+}
+
+.Apartemen{
+    position:absolute;
+    margin-top: 80px;
+    margin-bottom: auto;
+    left: 60px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #152C5B;
+}
+
+.Dapur{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: 30px;
+    padding-left: 50px;
+    margin-top: 130px;
+    align-items: center;
+}
+
+.D1{
+    position: relative;
+    margin-left: 20px;
+}
+
+.D2{
+    position: relative;
+    margin-left: 25px;
+}
+
+.D3{
+    position: relative;
+    margin-left: 25px;
+}
+
+.D4{
+    position: relative;
+    margin-left: 25px;
+}
+
+.kotakbawah{
+    display: flex;
+    flex-direction: row;
+    width: max-content;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.kotakAkhir{
+    flex-grow: 2;
+    margin: auto;
+    padding: auto;
+    margin-left: 50px;
+}
+
+.kotakAkhir h3{
+    color: #152C5B;
+    font-weight: bold;
+
+}
+
+.kotakAkhir h2{
+    color: #152C5B;
+    font-weight: bold;
+}
+
+.Gbintang{
+    display: flex;
+    flex-direction: row;
+}
+
+.kotakAkhir button{
+    background-color: #3252DF;
+    color: white;
+    border: none;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 4;
+    width: max-content;
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.Caption{
+    position: relative;
+    margin-right: 100px;
+}
+
+.Beginners{
+    position: relative;
+    margin-left: 25px; 
+    color: #152C5B;
+}
+
+.Us{
+    position: relative;
+    margin-left: 30px;
+    color: #152C5B;
+}
+
+.Get{
+    position: relative;
+    margin-left: 60px;
+    color: #152C5B;
+}
+
+.footer p{
+    color: #B0B0B0;
+}
+
+.Copy{
+    position: relative;
+    margin-top: 40px; 
+    text-align: center;
+    color: #B0B0B0;
+}
